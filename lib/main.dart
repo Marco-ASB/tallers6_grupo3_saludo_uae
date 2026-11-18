@@ -2,16 +2,15 @@ import 'package:flutter/material.dart';
 import 'package:tallers6_grupo3_saludo_uae/presentation/screens/home_screen.dart';
 
 void main() {
-  runApp(const saludo_uae());
+  runApp(const SaludoUAE());
 }
 
-class saludo_uae extends StatelessWidget {
-  const saludo_uae({super.key});
+class SaludoUAE extends StatelessWidget {
+  const SaludoUAE({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
       home: HomeScreen(),
     );
 
